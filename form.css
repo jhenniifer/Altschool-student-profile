@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Euclid Circular A', sans-serif;
+    color: #333333;
+    font-size: 18px;
+}
+@font-face {
+    font-family: AlmarenaNeue;
+    src: url(/assets/font/AlmarenaNeue-Bold-iF66afd734b3748.otf);
+}
+
+/* font-family: 'SF Mono', sans-serif; */
+section:first-of-type{
+    display: none;
+}
+
+section:last-of-type{
+    padding: 1.7rem;
+}
+
+.signin__link{
+    font-family: AlmarenaNeue;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.signin__link a{
+    color:#0361e4 ;
+    text-decoration: none;
+    font-family: AlmarenaNeue;
+}
+
+.form__head{
+    margin: 1.7rem 0;
+}
+
+.form__heading{
+    font-size: 32px;
+    font-family: AlmarenaNeue;
+    margin-bottom: .9rem;
+}
+
+.form__text{
+    color: #8b97a9;
+}
+
+label{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+select,
+input{
+    width: 100%;
+    padding:.6rem;
+    border-radius: 10px;
+    border: 1px solid #8b97a9;
+    outline-color: #0361e4;
+}
+
+::placeholder{
+    color: #8b97a9;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+select,
+[type="date"]{
+    font-weight: 600;
+}
+
+.form__control{
+    margin-bottom: .9rem;
+}
+
+[type="password"]{
+    background: url(/assets/image/show.png);
+    background-repeat: no-repeat;
+    background-position: right 5% top 50%;
+}
+
+.terms__and__condition{
+    color: #8b97a9;
+    margin: 1.5rem 0 ;
+}
+
+.terms__and__condition a{
+    color: #0361e4;
+    text-decoration: none;
+}
+
+button{
+    background-color: #0361e4;
+    color: #fff;
+    padding:.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+   .form__control{
+    width: 48%;
+   }  
+   
+   .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+   .form__control:last-of-type{
+    width: 100%;
+   }
+}
+
+@media (min-width: 992px) {
+    main{
+    display: flex;
+}
+
+section:first-of-type{
+    width: 50%;
+    display: block;
+    background: #fffcf8;
+    padding: 6rem 5rem;
+    /* padding: ; */
+}
+
+section:first-of-type img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+section:first-of-type h1{
+    line-height: 44px;
+    text-align: center;
+}
+
+section:last-of-type{
+    width: 50%;
+}
+
+h1{
+    font-family: AlmarenaNeue; 
+    font-size: 40px;
+}
+
+.signin__link{
+    text-align: end;
+}
+
+.page__icons{
+    text-align: center;
+}
+.page__icons i{
+    color: #0361e4;
+    text-align: center;
+    margin: 2.5rem 0 2rem 0;
+}
+.copyright{
+    text-align: center;
+    font-weight: 600;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+                                                 
