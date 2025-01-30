@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2b</title>
     <style>
-        /* General Styles */
+       
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #fef8f5;
@@ -37,7 +37,6 @@
             margin-bottom: 10px;
         }
 
-        /* Section Styling */
         section {
             margin-bottom: 30px;
             padding: 15px;
@@ -46,7 +45,6 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Picture Styling */
         .image-container {
             display: flex;
             justify-content: center;
@@ -65,21 +63,20 @@
             transform: scale(1.05);
         }
 
-        /* Audio Styling */
         audio {
             width: 100%;
             margin-top: 10px;
         }
 
-        /* Video & iFrame Styling */
-        iframe {
+        iframe,
+        video{
             width: 100%;
             height: 300px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+    
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             main {
                 width: 95%;
@@ -131,15 +128,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Fm23SavNwXA?si=_THxNFyoaImTNCO5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         
-        
-         
-         <section id="video">
-            <video controls>
-                <source src="assets/audio/funny video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-
-         </section>       
+               
     </main>
 </body>
 </html>
