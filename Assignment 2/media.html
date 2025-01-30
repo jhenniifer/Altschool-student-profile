@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2b</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fef8f5;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        main {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #dd4b4b;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #ffe8e8;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Picture Styling */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        picture img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        picture img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Audio Styling */
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Video & iFrame Styling */
+        iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                width: 95%;
+            }
+            iframe {
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 1.3em;
+            }
+            p {
+                font-size: 1em;
+            }
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+</head>
+<body>
+   
+    <main>
+        <section id="picture">
+            <h1> Hi, my name is Jennifer.</h1>
+        <picture>
+            <source srcset="assets/images/selfie.jpg.jpg" media="(min-width: 800px)" width="400px">
+            <source srcset="assets/images/older-mirror-picture.jpg.jpg" media="(min-width: 500px)" >
+            <img src="assets/images/mirror-picture.jpg.jpg" alt="A really cute picture of me" width="400px">
+        </picture> 
+       
+    </section>
+
+
+        <section id="audio" >
+            <p>This is my ringtone, it is bling bang bang bom by creepy nuts, my favourite anime opening song at the moment</p>
+
+            <audio controls muted>
+                <source srcset="assets/audio/bling_bang_bang_bom.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section class="iframe">
+            <p>This iframed video is from Nero, my favourite youtuber. i love listening to him especially when i am not feeling my best emotionally and mentally.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fm23SavNwXA?si=_THxNFyoaImTNCO5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+        
+         
+         <section id="video">
+            <video controls>
+                <source src="assets/audio/funny video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+         </section>       
+    </main>
+</body>
+</html>
